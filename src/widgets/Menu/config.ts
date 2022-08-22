@@ -121,11 +121,15 @@ export const socials = [
       {
         label: "English",
         href: "https://t.me/DogeboxNFT",
-      },
-      
-    ],
-  },
 
+      },
+      ],
+  },
+  {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/DogeboxNFT?s=20&t=pXcnzizmaa0dQyURayNmUA",
+  },
 ];
 
 export const MENU_HEIGHT = 64;
