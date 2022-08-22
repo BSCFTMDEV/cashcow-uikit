@@ -78,15 +78,7 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
-      {cowPriceUsd ? (
-        <PriceLink href={priceLink} target="_blank">
-          <CowRoundIcon width="24px" mr="8px" />
-          <Text color="textSubtle" bold>{`$${cowPriceUsd.toFixed(6)}`}</Text>
-        </PriceLink>
-      ) : (
-        <Skeleton width={80} height={24} />
-      )}
-
+   
       {cakePriceUsd ? (
         <PriceLink href={priceLink} target="_blank">
           <PancakeRoundIcon width="24px" mr="8px" />

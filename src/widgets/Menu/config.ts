@@ -120,24 +120,12 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/cashcowprotocol",
+        href: "https://t.me/DogeboxNFT",
       },
-      {
-        label: "English",
-        href: "https://t.me/cashcowprotocol",
-      },
+      
     ],
   },
-  {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/CashCowProtocol",
-  },
-  {
-    label: "Telegram",
-    icon: "TelegramIcon",
-    href: "https://www.reddit.com/r/GooseFinanceofficial",
-  },
+
 ];
 
 export const MENU_HEIGHT = 64;
